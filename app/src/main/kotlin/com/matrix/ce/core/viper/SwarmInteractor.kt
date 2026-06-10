@@ -16,7 +16,7 @@ class SwarmInteractor(private val output: SwarmInteractorOutput) : SwarmInteract
     private val TAG = "SwarmInteractor"
     
     // In a real Termux setup, this would be localhost or a specific bridge IP
-    private val API_BASE_URL = "http://127.0.0.1:9000/api" 
+    private val API_BASE_URL = "http://127.0.0.1:8081/api" 
 
     override fun fetchStatus() {
         val request = Request.Builder()
