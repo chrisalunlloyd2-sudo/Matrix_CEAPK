@@ -1,0 +1,13 @@
+# --- catalogued binaries (see CATALOGUE.md) ---
+# Listed individually, not as *.so / *.jar: the rule is a
+# threshold on the FILE, so small ones of the same type ship.
+/build/kai_decompiled/lib/x86_64/liblitertlm_jni.so
+/build/kai_decompiled/lib/arm64-v8a/liblitertlm_jni.so
+/build/kai_decompiled/build/apk/classes.dex
+/build/kai_decompiled/build/apk/classes2.dex
+/build/kai_decompiled/lib/x86_64/libLiteRt.so
+
+__pycache__/
+.gradle/
+.idea/
+
